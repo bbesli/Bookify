@@ -1,29 +1,55 @@
-﻿using Bookify.Application.Abstractions.Messaging;
+﻿using Bookify.Application.Abstractions.Authentication;
+using Bookify.Application.Abstractions.Data;
+using Bookify.Application.Abstractions.Messaging;
 using Bookify.Application.Data;
 using Bookify.Domain.Abstractions;
+using Bookify.Domain.Bookings;
 using Dapper;
+using Microsoft.EntityFrameworkCore;
 
 namespace Bookify.Application.Bookings.GetBooking;
 
 internal sealed class GetBookingQueryHandler : IQueryHandler<GetBookingQuery, BookingResponse>
 {
-    private readonly ISqlConnectionFactory _sqlConnectionFactory;
+    private readonly IApplicationDbContext _context;
+    private readonly IUserContext _userContext;
 
-    public GetBookingQueryHandler(ISqlConnectionFactory sqlConnectionFactory)
+    public GetBookingQueryHandler(IApplicationDbContext context, IUserContext userContext)
     {
-        _sqlConnectionFactory = sqlConnectionFactory;
+        _context = context;
+        _userContext = userContext;
     }
 
     public async Task<Result<BookingResponse>> Handle(GetBookingQuery request, CancellationToken cancellationToken)
     {
-        using var connection = _sqlConnectionFactory.CreateConnection();
-
-        var booking = await connection.QueryFirstOrDefaultAsync<BookingResponse>(
-            sql,
-            new
+        BookingResponse? booking = await _context.Bookings
+            .Where(b => b.Id == request.BookingId)
+            .Select(b => new BookingResponse
             {
-                request.BookingId,
-            });
+                Id = b.Id,
+                ApartmentId = b.ApartmentId,
+                UserId = b.UserId,
+                Status = (int)b.Status,
+                PriceAmount = b.PriceForPeriod.Amount,
+                PriceCurrency = b.PriceForPeriod.Currency.Code,
+                CleaningFeeAmount = b.CleaningFee.Amount,
+                CleaningFeeCurrency = b.CleaningFee.Currency.Code,
+                AmenitiesUpChargeAmount = b.AmenitiesUpCharge.Amount,
+                AmenitiesUpChargeCurrency = b.AmenitiesUpCharge.Currency.Code,
+                TotalPriceAmount = b.TotalPrice.Amount,
+                TotalPriceCurrency = b.TotalPrice.Currency.Code,
+                DurationStart = b.Duration.Start,
+                DurationEnd = b.Duration.End,
+                CreatedOnUtc = b.CreatedOnUtc
+            })
+            .FirstOrDefaultAsync(cancellationToken);
+
+        if (booking is null || booking.UserId != _userContext.UserId)
+        {
+            return Result.Failure<BookingResponse>(BookingErrors.NotFound);
+        }
+
         return booking;
     }
+
 }

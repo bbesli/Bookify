@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CleanArch-MJ\\Bookify\\Bookify.Application\\Bookify.Application.csproj": {}
+    "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Application\\Bookify.Application.csproj": {}
   },
   "projects": {
-    "D:\\CleanArch-MJ\\Bookify\\Bookify.Application\\Bookify.Application.csproj": {
+    "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Application\\Bookify.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CleanArch-MJ\\Bookify\\Bookify.Application\\Bookify.Application.csproj",
+        "projectUniqueName": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Application\\Bookify.Application.csproj",
         "projectName": "Bookify.Application",
-        "projectPath": "D:\\CleanArch-MJ\\Bookify\\Bookify.Application\\Bookify.Application.csproj",
-        "packagesPath": "C:\\Users\\burak.besli\\.nuget\\packages\\",
-        "outputPath": "D:\\CleanArch-MJ\\Bookify\\Bookify.Application\\obj\\",
+        "projectPath": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Application\\Bookify.Application.csproj",
+        "packagesPath": "C:\\Users\\TR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Application\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\burak.besli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -34,8 +34,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Bookify.Domain.csproj": {
-                "projectPath": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Bookify.Domain.csproj"
+              "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Domain\\Bookify.Domain.csproj": {
+                "projectPath": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Domain\\Bookify.Domain.csproj"
               }
             }
           }
@@ -48,7 +48,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -62,6 +62,14 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -80,25 +88,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Bookify.Domain.csproj": {
+    "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Domain\\Bookify.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Bookify.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Domain\\Bookify.Domain.csproj",
         "projectName": "Bookify.Domain",
-        "projectPath": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Bookify.Domain.csproj",
-        "packagesPath": "C:\\Users\\burak.besli\\.nuget\\packages\\",
-        "outputPath": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\obj\\",
+        "projectPath": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Domain\\Bookify.Domain.csproj",
+        "packagesPath": "C:\\Users\\TR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\burak.besli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -124,7 +132,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -152,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

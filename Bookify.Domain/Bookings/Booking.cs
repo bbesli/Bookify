@@ -33,7 +33,7 @@ namespace Bookify.Domain.Bookings
             AmenitiesUpCharge = amenitiesUpCharge;
             TotalPrice = totalPrice;
             Status = status;
-            CreateOnUtc = createdOnUtc;
+            CreatedOnUtc = createdOnUtc;
         }
 
         public Guid ApartmentId { get; private set; }
@@ -44,7 +44,7 @@ namespace Bookify.Domain.Bookings
         public Money AmenitiesUpCharge { get; private set; }
         public Money TotalPrice { get; private set; }
         public BookingStatus Status { get; private set; }
-        public DateTime CreateOnUtc { get; private set; }
+        public DateTime CreatedOnUtc { get; private set; }
         public DateTime? ConfirmedOnUtc { get; private set; }
         public DateTime? RejectedOnUtc { get; private set; }
         public DateTime? CompletedOnUtc { get; private set; }

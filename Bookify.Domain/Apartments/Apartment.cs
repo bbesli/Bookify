@@ -14,7 +14,7 @@ namespace Bookify.Domain.Apartments
             Guid id,
             Name name,
             Description description,
-            Adress adress,
+            Adress address,
             Money price,
             Money cleaningFee,
             List<Amenity> amenities)
@@ -22,7 +22,7 @@ namespace Bookify.Domain.Apartments
         {
             Name = name;
             Description = description;
-            Adress = adress;
+            Address = address;
             Price = price;
             CleaningFee = cleaningFee;
             Amenities = amenities;
@@ -30,7 +30,7 @@ namespace Bookify.Domain.Apartments
 
         public Name Name { get; private set; }
         public Description Description { get; private set; }
-        public Adress Adress { get; private set; }
+        public Adress Address { get; private set; }
         public Money Price { get; private set; }
         public Money CleaningFee { get; private set; }
         public DateTime? LastBookedOnUtc { get; internal set; }
