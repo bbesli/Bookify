@@ -1,4 +1,7 @@
-﻿namespace Bookify.Api.Middleware;
+﻿using Microsoft.Extensions.Primitives;
+using Serilog.Context;
+
+namespace Bookify.Api.Middleware;
 
 internal sealed class RequestContextLoggingMiddleware(RequestDelegate next)
 {

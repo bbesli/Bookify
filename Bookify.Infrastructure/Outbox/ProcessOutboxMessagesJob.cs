@@ -1,4 +1,15 @@
-﻿namespace Bookify.Infrastructure.Outbox;
+﻿using System.Data;
+using Bookify.Application.Abstractions.Clock;
+using Bookify.Application.Abstractions.Data;
+using Bookify.Domain.Abstractions;
+using Dapper;
+using MediatR;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
+using Quartz;
+
+namespace Bookify.Infrastructure.Outbox;
 
 [DisallowConcurrentExecution]
 internal sealed class ProcessOutboxMessagesJob : IJob

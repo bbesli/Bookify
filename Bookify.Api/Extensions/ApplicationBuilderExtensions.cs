@@ -1,4 +1,8 @@
-﻿namespace Bookify.Api.Extensions;
+﻿using Bookify.Api.Middleware;
+using Bookify.Infrastructure;
+using Microsoft.EntityFrameworkCore;
+
+namespace Bookify.Api.Extensions;
 
 internal static class ApplicationBuilderExtensions
 {

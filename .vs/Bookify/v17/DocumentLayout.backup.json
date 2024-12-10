@@ -1,54 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CleanArch-MJ\\Bookify\\",
+  "WorkspaceRootPath": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|d:\\cleanarch-mj\\bookify\\bookify.domain\\bookings\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\bookings\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B451A1C-402B-44CB-B247-C4F777976EBA}|Bookify.Application\\Bookify.Application.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.application\\bookings\\getbooking\\getbookingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B451A1C-402B-44CB-B247-C4F777976EBA}|Bookify.Application\\Bookify.Application.csproj|solutionrelative:bookify.application\\bookings\\getbooking\\getbookingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|d:\\cleanarch-mj\\bookify\\bookify.domain\\abstractions\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|solutionrelative:bookify.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|solutionrelative:bookify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.api\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|solutionrelative:bookify.api\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B451A1C-402B-44CB-B247-C4F777976EBA}|Bookify.Application\\Bookify.Application.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.application\\users\\registeruser\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B451A1C-402B-44CB-B247-C4F777976EBA}|Bookify.Application\\Bookify.Application.csproj|solutionrelative:bookify.application\\users\\registeruser\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.domain\\abstractions\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\abstractions\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|d:\\cleanarch-mj\\bookify\\bookify.domain\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.api\\controllers\\bookings\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|solutionrelative:bookify.api\\controllers\\bookings\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|d:\\cleanarch-mj\\bookify\\bookify.domain\\abstractions\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\abstractions\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.api\\extensions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|solutionrelative:bookify.api\\extensions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|d:\\cleanarch-mj\\bookify\\bookify.domain\\apartments\\amenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\apartments\\amenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|d:\\cleanarch-mj\\bookify\\bookify.domain\\apartments\\adress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\apartments\\adress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|d:\\cleanarch-mj\\bookify\\bookify.domain\\apartments\\apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\apartments\\apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|d:\\cleanarch-mj\\bookify\\bookify.domain\\shared\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\shared\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|d:\\cleanarch-mj\\bookify\\bookify.domain\\bookings\\pricingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\bookings\\pricingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|d:\\cleanarch-mj\\bookify\\bookify.domain\\bookings\\daterange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\bookings\\daterange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|d:\\cleanarch-mj\\bookify\\bookify.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|d:\\cleanarch-mj\\bookify\\bookify.domain\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D948B108-5DEB-4C74-8CCA-475E14801E6F}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|solutionrelative:bookify.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,164 +46,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Result.cs",
-              "DocumentMoniker": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Abstractions\\Result.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Abstractions\\Result.cs",
-              "ToolTip": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Abstractions\\Result.cs",
-              "RelativeToolTip": "Bookify.Domain\\Abstractions\\Result.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCAAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T13:51:20.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Abstractions\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Abstractions\\IUnitOfWork.cs",
-              "ToolTip": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Abstractions\\IUnitOfWork.cs",
-              "RelativeToolTip": "Bookify.Domain\\Abstractions\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T13:33:04.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Amenity.cs",
-              "DocumentMoniker": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Apartments\\Amenity.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Apartments\\Amenity.cs",
-              "ToolTip": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Apartments\\Amenity.cs",
-              "RelativeToolTip": "Bookify.Domain\\Apartments\\Amenity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T13:32:56.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Adress.cs",
-              "DocumentMoniker": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Apartments\\Adress.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Apartments\\Adress.cs",
-              "ToolTip": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Apartments\\Adress.cs",
-              "RelativeToolTip": "Bookify.Domain\\Apartments\\Adress.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T13:32:54.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Money.cs",
-              "DocumentMoniker": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Shared\\Money.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Shared\\Money.cs",
-              "ToolTip": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Shared\\Money.cs",
-              "RelativeToolTip": "Bookify.Domain\\Shared\\Money.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T13:04:40.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PricingService.cs",
-              "DocumentMoniker": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Bookings\\PricingService.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Bookings\\PricingService.cs",
-              "ToolTip": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Bookings\\PricingService.cs",
-              "RelativeToolTip": "Bookify.Domain\\Bookings\\PricingService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:54:43.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DateRange.cs",
-              "DocumentMoniker": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Bookings\\DateRange.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Bookings\\DateRange.cs",
-              "ToolTip": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Bookings\\DateRange.cs",
-              "RelativeToolTip": "Bookify.Domain\\Bookings\\DateRange.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:46:10.697Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Bookings\\Booking.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Bookings\\Booking.cs",
-              "ToolTip": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Bookings\\Booking.cs",
-              "RelativeToolTip": "Bookify.Domain\\Bookings\\Booking.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAqwIAAAAANAAAAAAAAAA==",
+              "Title": "GetBookingQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Application\\Bookings\\GetBooking\\GetBookingQueryHandler.cs",
+              "RelativeDocumentMoniker": "Bookify.Application\\Bookings\\GetBooking\\GetBookingQueryHandler.cs",
+              "ToolTip": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Application\\Bookings\\GetBooking\\GetBookingQueryHandler.cs",
+              "RelativeToolTip": "Bookify.Application\\Bookings\\GetBooking\\GetBookingQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:40:46.211Z",
+              "WhenOpened": "2024-12-10T14:19:42.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Abstractions\\Entity.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Abstractions\\Entity.cs",
-              "ToolTip": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Abstractions\\Entity.cs",
-              "RelativeToolTip": "Bookify.Domain\\Abstractions\\Entity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Application\\Users\\RegisterUser\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "Bookify.Application\\Users\\RegisterUser\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Application\\Users\\RegisterUser\\RegisterUserCommand.cs",
+              "RelativeToolTip": "Bookify.Application\\Users\\RegisterUser\\RegisterUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:31:09.153Z"
+              "WhenOpened": "2024-12-10T13:29:03.646Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IDomainEvent.cs",
-              "DocumentMoniker": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Abstractions\\IDomainEvent.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Abstractions\\IDomainEvent.cs",
-              "ToolTip": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Abstractions\\IDomainEvent.cs",
-              "RelativeToolTip": "Bookify.Domain\\Abstractions\\IDomainEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Controllers\\Users\\UsersController.cs",
+              "RelativeDocumentMoniker": "Bookify.Api\\Controllers\\Users\\UsersController.cs",
+              "ToolTip": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Controllers\\Users\\UsersController.cs",
+              "RelativeToolTip": "Bookify.Api\\Controllers\\Users\\UsersController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:29:36.056Z"
+              "WhenOpened": "2024-12-10T13:27:47.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Bookify.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\appsettings.Development.json",
+              "RelativeToolTip": "Bookify.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-10T13:22:59.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Domain\\Abstractions\\Result.cs",
+              "RelativeDocumentMoniker": "Bookify.Domain\\Abstractions\\Result.cs",
+              "ToolTip": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Domain\\Abstractions\\Result.cs",
+              "RelativeToolTip": "Bookify.Domain\\Abstractions\\Result.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:08:49.507Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Apartment.cs",
-              "DocumentMoniker": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Apartments\\Apartment.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Apartments\\Apartment.cs",
-              "ToolTip": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Apartments\\Apartment.cs",
-              "RelativeToolTip": "Bookify.Domain\\Apartments\\Apartment.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAswCUAAAA4AAAAAAAAAA==",
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Controllers\\Bookings\\BookingsController.cs",
+              "RelativeDocumentMoniker": "Bookify.Api\\Controllers\\Bookings\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Controllers\\Bookings\\BookingsController.cs",
+              "RelativeToolTip": "Bookify.Api\\Controllers\\Bookings\\BookingsController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:13:21.217Z"
+              "WhenOpened": "2024-12-10T11:09:35.5Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Users\\User.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Users\\User.cs",
-              "ToolTip": "D:\\CleanArch-MJ\\Bookify\\Bookify.Domain\\Users\\User.cs",
-              "RelativeToolTip": "Bookify.Domain\\Users\\User.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Extensions\\ApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "Bookify.Api\\Extensions\\ApplicationBuilderExtensions.cs",
+              "ToolTip": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Extensions\\ApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "Bookify.Api\\Extensions\\ApplicationBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:09:02.289Z"
+              "WhenOpened": "2024-12-10T10:55:03.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Bookify.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Bookify.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T10:53:24.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Bookify.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Program.cs",
+              "RelativeToolTip": "Bookify.Api\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T08:39:41.174Z",
+              "EditorCaption": ""
             }
           ]
         }

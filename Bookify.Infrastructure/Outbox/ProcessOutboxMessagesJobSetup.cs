@@ -1,4 +1,7 @@
-﻿namespace Bookify.Infrastructure.Outbox;
+﻿using Microsoft.Extensions.Options;
+using Quartz;
+
+namespace Bookify.Infrastructure.Outbox;
 
 internal sealed class ProcessOutboxMessagesJobSetup : IConfigureOptions<QuartzOptions>
 {

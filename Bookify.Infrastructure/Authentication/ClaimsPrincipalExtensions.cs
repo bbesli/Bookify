@@ -1,4 +1,7 @@
-﻿namespace Bookify.Infrastructure.Authentication;
+﻿using System.Security.Claims;
+using Microsoft.IdentityModel.JsonWebTokens;
+
+namespace Bookify.Infrastructure.Authentication;
 
 internal static class ClaimsPrincipalExtensions
 {

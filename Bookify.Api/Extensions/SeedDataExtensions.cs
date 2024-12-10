@@ -1,4 +1,10 @@
-﻿namespace Bookify.Api.Extensions;
+﻿using System.Data;
+using Bogus;
+using Bookify.Application.Abstractions.Data;
+using Bookify.Domain.Apartments;
+using Dapper;
+
+namespace Bookify.Api.Extensions;
 
 internal static class SeedDataExtensions
 {

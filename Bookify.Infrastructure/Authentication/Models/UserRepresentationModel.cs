@@ -1,4 +1,6 @@
-﻿namespace Bookify.Infrastructure.Authentication.Models;
+﻿using Bookify.Domain.Users;
+
+namespace Bookify.Infrastructure.Authentication.Models;
 
 internal sealed class UserRepresentationModel
 {

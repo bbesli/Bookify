@@ -1,4 +1,9 @@
-﻿namespace Bookify.Application.Users.RegisterUser;
+﻿using Bookify.Application.Abstractions.Authentication;
+using Bookify.Application.Abstractions.Messaging;
+using Bookify.Domain.Abstractions;
+using Bookify.Domain.Users;
+
+namespace Bookify.Application.Users.RegisterUser;
 
 internal sealed class RegisterUserCommandHandler : ICommandHandler<RegisterUserCommand, Guid>
 {

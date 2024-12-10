@@ -1,4 +1,10 @@
-﻿namespace Bookify.Infrastructure.Authentication;
+﻿using System.Net.Http.Headers;
+using System.Net.Http.Json;
+using Bookify.Infrastructure.Authentication.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Options;
+
+namespace Bookify.Infrastructure.Authentication;
 
 internal sealed class AdminAuthorizationDelegatingHandler : DelegatingHandler
 {

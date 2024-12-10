@@ -3,6 +3,7 @@ using Bookify.Domain.Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,7 +15,7 @@ namespace Bookify.Domain.Apartments
             Guid id,
             Name name,
             Description description,
-            Adress address,
+            Address address,
             Money price,
             Money cleaningFee,
             List<Amenity> amenities)
@@ -28,12 +29,52 @@ namespace Bookify.Domain.Apartments
             Amenities = amenities;
         }
 
+        private Apartment()
+        {
+        }
+
         public Name Name { get; private set; }
+
         public Description Description { get; private set; }
-        public Adress Address { get; private set; }
+
+        public Address Address { get; private set; }
+
         public Money Price { get; private set; }
+
         public Money CleaningFee { get; private set; }
+
         public DateTime? LastBookedOnUtc { get; internal set; }
+
         public List<Amenity> Amenities { get; private set; } = new();
+
+        public static Result<Apartment> Create(
+            Name name,
+            Description description,
+            Address address,
+            Money price,
+            Money cleaningFee,
+            Amenity[] amenities)
+        {
+            var apartment = new Apartment(
+                Guid.NewGuid(),
+                name,
+                description,
+                address,
+                price,
+                cleaningFee,
+                amenities.ToList());
+
+            return Result.Success(apartment);
+        }
+
+        public void Update(
+            Money priceAmount,
+            Money cleaningFeeAmount,
+            Amenity[] amenities)
+        {
+            Price = priceAmount;
+            CleaningFee = cleaningFeeAmount;
+            Amenities = amenities.ToList();
+        }
     }
 }

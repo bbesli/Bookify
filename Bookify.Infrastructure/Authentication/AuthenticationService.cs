@@ -1,4 +1,9 @@
-﻿namespace Bookify.Infrastructure.Authentication;
+﻿using System.Net.Http.Json;
+using Bookify.Application.Abstractions.Authentication;
+using Bookify.Domain.Users;
+using Bookify.Infrastructure.Authentication.Models;
+
+namespace Bookify.Infrastructure.Authentication;
 
 internal sealed class AuthenticationService : IAuthenticationService
 {

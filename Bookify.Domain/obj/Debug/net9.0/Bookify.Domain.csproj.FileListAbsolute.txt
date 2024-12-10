@@ -10,3 +10,16 @@ D:\CleanArch-MJ\Bookify\Bookify.Domain\obj\Debug\net9.0\Bookify.Domain.dll
 D:\CleanArch-MJ\Bookify\Bookify.Domain\obj\Debug\net9.0\refint\Bookify.Domain.dll
 D:\CleanArch-MJ\Bookify\Bookify.Domain\obj\Debug\net9.0\Bookify.Domain.pdb
 D:\CleanArch-MJ\Bookify\Bookify.Domain\obj\Debug\net9.0\ref\Bookify.Domain.dll
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\bin\Debug\net9.0\Bookify.Domain.deps.json
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\bin\Debug\net9.0\Bookify.Domain.dll
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\bin\Debug\net9.0\Bookify.Domain.pdb
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\obj\Debug\net9.0\Bookify.Domain.csproj.AssemblyReference.cache
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\obj\Debug\net9.0\Bookify.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\obj\Debug\net9.0\Bookify.Domain.AssemblyInfoInputs.cache
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\obj\Debug\net9.0\Bookify.Domain.AssemblyInfo.cs
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\obj\Debug\net9.0\Bookify.Domain.csproj.CoreCompileInputs.cache
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\obj\Debug\net9.0\Bookify.Domain.sourcelink.json
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\obj\Debug\net9.0\Bookify.Domain.dll
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\obj\Debug\net9.0\refint\Bookify.Domain.dll
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\obj\Debug\net9.0\Bookify.Domain.pdb
+C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Domain\obj\Debug\net9.0\ref\Bookify.Domain.dll

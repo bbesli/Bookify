@@ -1,4 +1,7 @@
-﻿namespace Bookify.Infrastructure.Authentication;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Options;
+
+namespace Bookify.Infrastructure.Authentication;
 
 internal sealed class JwtBearerOptionsSetup : IConfigureNamedOptions<JwtBearerOptions>
 {

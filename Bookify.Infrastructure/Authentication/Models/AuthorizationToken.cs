@@ -1,4 +1,6 @@
-﻿namespace Bookify.Infrastructure.Authentication.Models;
+﻿using System.Text.Json.Serialization;
+
+namespace Bookify.Infrastructure.Authentication.Models;
 
 internal sealed class AuthorizationToken
 {

@@ -1,4 +1,6 @@
-﻿namespace Bookify.Application.Users.RegisterUser;
+﻿using Bookify.Application.Abstractions.Messaging;
+
+namespace Bookify.Application.Users.RegisterUser;
 
 public sealed record RegisterUserCommand(
     string Email,

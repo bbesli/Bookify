@@ -1,10 +1,11 @@
 ﻿using Bookify.Application.Abstractions.Messaging;
+using Bookify.Application.Exceptions;
 using FluentValidation;
 using MediatR;
 
-namespace Bookify.Application.Behaviors;
+namespace Bookify.Application.Abstractions.Behaviors;
 
-public class ValidationBehavior<TRequest, TResponse>
+internal sealed class ValidationBehavior<TRequest, TResponse>
     : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IBaseCommand
 {
@@ -24,8 +25,9 @@ public class ValidationBehavior<TRequest, TResponse>
         {
             return await next();
         }
+
         var context = new ValidationContext<TRequest>(request);
-        
+
         var validationErrors = _validators
             .Select(validator => validator.Validate(context))
             .Where(validationResult => validationResult.Errors.Any())
@@ -39,7 +41,7 @@ public class ValidationBehavior<TRequest, TResponse>
         {
             throw new Exceptions.ValidationException(validationErrors);
         }
-        
+
         return await next();
     }
 }

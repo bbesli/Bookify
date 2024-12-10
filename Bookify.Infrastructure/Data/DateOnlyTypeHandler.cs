@@ -1,4 +1,7 @@
-﻿namespace Bookify.Infrastructure.Data;
+﻿using System.Data;
+using Dapper;
+
+namespace Bookify.Infrastructure.Data;
 
 internal sealed class DateOnlyTypeHandler : SqlMapper.TypeHandler<DateOnly>
 {
