@@ -1,9 +1,10 @@
 ﻿using System.Net.Http.Json;
 using Bookify.Application.Abstractions.Authentication;
 using Bookify.Domain.Abstractions;
+using Bookify.Infrastructure.Authentication.Models;
 using Microsoft.Extensions.Options;
 
-namespace Bookify.Infrastructure.Authentication.Models;
+namespace Bookify.Infrastructure.Authentication;
 
 internal sealed class JwtService : IJwtService
 {

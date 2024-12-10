@@ -1,4 +1,9 @@
-﻿namespace Bookify.Application.Users.LogInUser;
+﻿using Bookify.Application.Abstractions.Authentication;
+using Bookify.Application.Abstractions.Messaging;
+using Bookify.Domain.Abstractions;
+using Bookify.Domain.Users;
+
+namespace Bookify.Application.Users.LogInUser;
 
 internal sealed class LogInUserCommandHandler : ICommandHandler<LogInUserCommand, AccessTokenResponse>
 {
