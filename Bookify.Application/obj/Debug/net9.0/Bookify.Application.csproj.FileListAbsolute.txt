@@ -29,3 +29,4 @@ C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Application\obj\Debug\ne
 C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Application\obj\Debug\net9.0\refint\Bookify.Application.dll
 C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Application\obj\Debug\net9.0\Bookify.Application.pdb
 C:\Users\TR\Desktop\MouseWithoutBorders\Bookify\Bookify.Application\obj\Debug\net9.0\ref\Bookify.Application.dll
+D:\CleanArch-MJ\Bookify\Bookify.Application\obj\Debug\net9.0\Bookify.Application.sourcelink.json
