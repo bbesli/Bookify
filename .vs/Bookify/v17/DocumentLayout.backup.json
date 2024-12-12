@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.api\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|solutionrelative:bookify.api\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|solutionrelative:bookify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|solutionrelative:bookify.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.api\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0075D421-C052-42BF-A6E2-E15D165C3A85}|Bookify.Api\\Bookify.Api.csproj|solutionrelative:bookify.api\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B451A1C-402B-44CB-B247-C4F777976EBA}|Bookify.Application\\Bookify.Application.csproj|c:\\users\\tr\\desktop\\mousewithoutborders\\bookify\\bookify.application\\users\\registeruser\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "20241210142001_Add_Outbox.cs",
               "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Infrastructure\\Migrations\\20241210142001_Add_Outbox.cs",
               "RelativeDocumentMoniker": "Bookify.Infrastructure\\Migrations\\20241210142001_Add_Outbox.cs",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GetBookingQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Application\\Bookings\\GetBooking\\GetBookingQueryHandler.cs",
               "RelativeDocumentMoniker": "Bookify.Application\\Bookings\\GetBooking\\GetBookingQueryHandler.cs",
@@ -93,20 +93,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Controllers\\Users\\UsersController.cs",
               "RelativeDocumentMoniker": "Bookify.Api\\Controllers\\Users\\UsersController.cs",
               "ToolTip": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Controllers\\Users\\UsersController.cs",
               "RelativeToolTip": "Bookify.Api\\Controllers\\Users\\UsersController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowAoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T13:27:47.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Bookify.Api\\appsettings.Development.json",
@@ -171,13 +171,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Program.cs",
               "RelativeDocumentMoniker": "Bookify.Api\\Program.cs",
               "ToolTip": "C:\\Users\\TR\\Desktop\\MouseWithoutBorders\\Bookify\\Bookify.Api\\Program.cs",
               "RelativeToolTip": "Bookify.Api\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T08:39:41.174Z",
               "EditorCaption": ""

@@ -1,6 +1,7 @@
 ﻿using Bookify.Application.Users.LogInUser;
 using Bookify.Application.Users.RegisterUser;
 using Bookify.Domain.Abstractions;
+using Bookify.Infrastructure.Authorization;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -18,16 +19,16 @@ public class UsersController : ControllerBase
         _sender = sender;
     }
 
-    // [HttpGet("me")]
-    // [HasPermission(Permissions.UsersRead)]
-    // public async Task<IActionResult> GetLoggedInUser(CancellationToken cancellationToken)
-    // {
-    //     var query = new GetLoggedInUserQuery();
-    //
-    //     Result<UserResponse> result = await _sender.Send(query, cancellationToken);
-    //
-    //     return Ok(result.Value);
-    // }
+    [HttpGet("me")]
+    [HasPermission(Permissions.UsersRead)]
+    public async Task<IActionResult> GetLoggedInUser(CancellationToken cancellationToken)
+    {
+        var query = new GetLoggedInUserQuery();
+
+        Result<UserResponse> result = await _sender.Send(query, cancellationToken);
+
+        return Ok(result.Value);
+    }
 
     [AllowAnonymous]
     [HttpPost("register")]
