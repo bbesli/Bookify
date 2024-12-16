@@ -29,7 +29,7 @@ internal sealed class SearchApartmentsQueryHandler
     {
         if (request.StartDate > request.EndDate)
         {
-            return new List<ApartmentResponse>();
+            return Result.Failure<IReadOnlyList<ApartmentResponse>>(Error.StartDateCannotBeLowerThenEndDate);
         }
 
         List<ApartmentResponse> apartments = await _context.Apartments

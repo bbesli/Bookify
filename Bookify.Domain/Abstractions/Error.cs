@@ -10,5 +10,6 @@ namespace Bookify.Domain.Abstractions
     {
         public static Error None = new(string.Empty, string.Empty);
         public static Error NullValue = new("Error.NullValue", "Null value was provided.");
+        public static Error StartDateCannotBeLowerThenEndDate = new("Error.StartDateCannotBeLowerThenEndDate", "Start Date cannot be lower then the end date.");
     }
 }

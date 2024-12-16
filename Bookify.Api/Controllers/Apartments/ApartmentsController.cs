@@ -1,4 +1,5 @@
-﻿using Bookify.Application.Apartments.SearchAparments;
+﻿using Asp.Versioning;
+using Bookify.Application.Apartments.SearchAparments;
 using Bookify.Domain.Apartments;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -6,28 +7,28 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Bookify.Api.Controllers.Apartments;
 
-[Authorize]
-[ApiController]
-[Route("api/apartments")]
-public class ApartmentsController : ControllerBase
+public static class ApartmentsController
 {
-    private readonly ISender _sender;
 
-    public ApartmentsController(ISender sender)
+    public static IEndpointRouteBuilder MapApartmentEndpoints(this IEndpointRouteBuilder builder)
     {
-        _sender = sender;
+        builder.MapGet("apartments", SearchApartments)
+            .RequireAuthorization("apartments:read")
+            .WithName(nameof(SearchApartments));
+
+        return builder;
     }
 
-    [HttpGet]
-    public async Task<IActionResult> SearchApartments(
+    public static async Task<IResult> SearchApartments(
         DateOnly startDate, 
         DateOnly endDate,
+        ISender sender,
         CancellationToken cancellationToken)
     {
         var query = new SearchApartmentsQuery(startDate, endDate);
         
-        var result = await _sender.Send(query, cancellationToken);
+        var result = await sender.Send(query, cancellationToken);
         
-        return Ok(result.Value);
+        return Results.Ok(result.Value);
     }
 }
